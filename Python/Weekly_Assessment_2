@@ -1,0 +1,85 @@
+Git and GitHub
+
+Git: A version control system that saves the history of your files and tracks changes. It allows you to create files and push them to GitHub for collaboration.
+
+Install Git:
+
+To know the version: git --version
+
+Add Configuration:
+
+Set user name: git config --global user.name "your_name"
+
+Set email: git config --global user.email "your_email"
+
+Edit Configuration:
+
+Edit configuration: git config --global --edit
+
+Creating and Navigating Directories:
+
+Create a new directory: mkdir <directory_name>
+
+Switch to that directory: cd <directory_name>
+
+GitHub Repository: A project that can be tracked through Git.
+
+Initialize a New Git Repository:
+
+Create an empty repository: git init
+
+View Changes:
+
+Check the status: git status
+
+Track a File:
+
+Add a file to tracking: git add <filename>
+
+Staging Area: A place to hold file changes before committing.
+
+Enter Staging Area:
+
+Add changes: git add .
+
+Commit Changes:
+
+Commit with a message: git commit -m "your_message"
+
+View Commits:
+
+See commit history: git log
+
+Branches:
+
+Create and Switch Branches:
+
+Create a new branch: git branch <branch_name>
+
+Switch branches: git checkout <branch_name>
+
+Merge Branches:
+
+Merge a branch: git merge <branch_name>
+
+Ignoring Files:
+
+Use .gitignore to specify files and directories that Git should not track.
+
+Pushing to GitHub:
+
+Add Remote and Push:
+
+Add remote repository: git remote add origin <GitHub_repository_path>
+
+Push changes: git push -u origin main
+
+Collaboration:
+
+Invite Collaborators: You can invite others to contribute to your repository.
+
+Forking and Pull Requests:
+
+Fork: Creates a clone of the repository where you can make changes without affecting the original.
+
+Pull Request: Allows users to contribute changes, take suggestions, and discuss modifications.
