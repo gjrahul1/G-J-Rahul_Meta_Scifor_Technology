@@ -6,3 +6,4 @@ matplotlib
 reportlab
 plotly
 typing
+ta
