@@ -6,6 +6,4 @@ matplotlib
 reportlab
 plotly
 typing
-io
-ta
 csv
