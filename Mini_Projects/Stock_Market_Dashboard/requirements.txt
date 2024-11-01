@@ -1,5 +1,12 @@
 streamlit
 yfinance
+time
 pandas
+numpy
 matplotlib
+reportlab
 plotly
+typing
+io
+ta
+csv
