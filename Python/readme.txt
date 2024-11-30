@@ -1,1 +1,1 @@
-This python repository contains basic python codes as part of intern training
+This sectuion of the repository contains all the exercises, assignments and topics covered
