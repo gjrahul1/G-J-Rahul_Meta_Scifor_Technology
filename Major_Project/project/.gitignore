@@ -9,3 +9,4 @@ __pycache__/
 parse.py
 Procfile
 setup.sh
+.streamlit/
