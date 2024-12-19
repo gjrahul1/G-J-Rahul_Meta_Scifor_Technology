@@ -6,3 +6,4 @@ etc/
 pyvenv.cfg
 Scripts/
 __pycache__/
+parse.py

@@ -1,9 +1,6 @@
-import time
 from selenium.webdriver import Remote, ChromeOptions
 from selenium.webdriver.chromium.remote_connection import ChromiumRemoteConnection
 from bs4 import BeautifulSoup
-import selenium.webdriver as webdriver
-from selenium.webdriver.edge.options import Options
 
 
 SBR_WEBDRIVER = 'https://brd-customer-hl_f816af67-zone-scraping_browser1:tdjsar6phesp@brd.superproxy.io:9515'
@@ -43,8 +40,3 @@ def clean_body_content(body_content):
     cleaned_content = "\n".join(line.strip() for line in cleaned_content.splitlines() if line.strip())
 
     return cleaned_content
-
-def split_dom_content(dom_content,max_length=6000):
-    return [
-        dom_content[i:i+max_length] for i in range(0,len(dom_content),max_length)
-    ]
