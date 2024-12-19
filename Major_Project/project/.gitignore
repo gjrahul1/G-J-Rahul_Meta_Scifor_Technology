@@ -7,3 +7,5 @@ pyvenv.cfg
 Scripts/
 __pycache__/
 parse.py
+Procfile
+setup.sh

@@ -2,7 +2,7 @@ import streamlit as st
 from scrape import scrape_Websites,split_dom_content,clean_body_content,extract_body_content
 
 
-st.title('AI Web Scraper')
+st.title('Web Scraper')
 url = st.text_input("Enter any website URL:")
 
 if st.button("Scrape Site"):
