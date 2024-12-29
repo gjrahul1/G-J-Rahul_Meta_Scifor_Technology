@@ -3,4 +3,4 @@ This section contains the following:
 2. Dependencies in requirements.txt
 
 Live Demo:
-https://mst03-0092-stock-market-dashboard.streamlit.app/
+https://interactive-stock-dashboard.streamlit.app/
